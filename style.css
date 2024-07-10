@@ -13,15 +13,26 @@ body{
 .container{
     width: 80%;
     margin: 0 auto;
+    max-width: 980px;
 }
 
 /*********** Header Section ***********/
 
 .header-section {
-    background-image: url(images/Hero-bg.png);
+    background-image: url(images/hero-bg.png);
     text-align: center;
     margin-bottom: 30px;
     padding: 60px 0;
+}
+.contact-button {
+    background: #0D1321;
+    padding: 20px 30px;
+    display: inline-block;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #FFF;
+    margin-top: 25px;
 }
 
 /********** Section Style ***********/
@@ -37,18 +48,48 @@ body{
 .section-desc {
     text-align: center;
     margin-bottom: 20px;
+    line-height: 28px;
 }
-.contact-button {
-    background: #0D1321;
-    padding: 20px 30px;
-    display: inline-block;
-    border-radius: 5px;
-    font-weight: bold;
-    text-decoration: none;
-    color: #FFF;
-    margin-top: 25px;
-  }
 
+/*************** Choose Section **********/
+.choose-section {
+    background: #f0f0f0;
+    padding: 60px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+.feature-item {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    margin-bottom: 35px;
+    border-radius: 10px;
+    padding: 40px;
+    background: linear-gradient(100deg, rgb(255, 255, 255) 0%, rgb(236, 236, 236) 100%);
+}
+
+.feature-item h3 {
+    color: #5C5E64;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.border-button {
+    border: 1px solid #9b9b9b;
+    display: inline-block;
+    padding: 15px 30px;
+    margin-top: 23px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #5c5e64;
+}
+.feature-item p {
+    line-height: 28px;
+    color: #3d3d3d;
+}
+.choose-section {
+  background: #f0f0f0;
+  padding: 60px;
+}
 /********** Skill Section ***********/
 .skill-group {
     display: flex;
@@ -58,6 +99,16 @@ body{
 .skill-item {
     background: #FFF6F4;
     padding: 25px;
+}
+
+/*********** Inspiration Area ***********/
+.inspiration-area {
+    margin-bottom: 40px;
+}
+.inspiration-area .video {
+    border-radius: 20px;
+    border: 1px solid #ddd;
+    padding: 10px;
 }
 
 
@@ -77,6 +128,38 @@ body{
     padding: 25px;
 }
 
+/************** Suppport Section ***********/
+.support-section {
+    margin-bottom: 30px;
+}
+.support-bg {
+    background: url(images/handshake.jpg);
+}
+.support-content{
+    background: rgba(55, 55, 55, 0.3);
+    text-align: center;
+    padding: 20px;
+}
+.support-content p, .support-content h1 {
+    color: #FFF;
+}
+.support-content input[type="email"] {
+    background: #FFF;
+    padding: 10px;
+    border-radius: 7px;
+    border: 0;
+    width: 350px;
+    font-size: 17px;
+    color: #3d3d3d;
+}
+.support-content input[type="submit"] {
+    background: #FFF;
+    border: 0;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 17px;
+    border-radius: 5px;
+  }
 /************** Footer Section ************/
 .footer-area {
     display: flex;
