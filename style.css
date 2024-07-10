@@ -2,6 +2,10 @@
     margin: 0;
     padding: 0;
 }
+a {
+    color: #0D1321;
+    font-weight: bold;
+}
 body{
     font-family: "Azeret Mono", monospace;
 }
@@ -13,7 +17,12 @@ body{
 
 /*********** Header Section ***********/
 
-
+.header-section {
+    background-image: url(images/Hero-bg.png);
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 60px 0;
+}
 
 /********** Section Style ***********/
 .section-gap {
@@ -21,26 +30,66 @@ body{
 }
 .section-heading {
     text-align: center;
-}
+    margin-bottom: 25px;
+    font-size: 32px;
+    font-weight: bold;
+  }
 .section-desc {
     text-align: center;
+    margin-bottom: 20px;
 }
-
+.contact-button {
+    background: #0D1321;
+    padding: 20px 30px;
+    display: inline-block;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #FFF;
+    margin-top: 25px;
+  }
 
 /********** Skill Section ***********/
 .skill-group {
     display: flex;
-    vertical-align: center;
+    gap: 30px;
     justify-content: space-between;
 }
 .skill-item {
-    background: #ddd;
-    margin: 20px;
-
+    background: #FFF6F4;
+    padding: 25px;
 }
 
 
 /********** Technolgy Group *******/
 .technology-item {
     display: flex;
+}
+.tech-left-content img {
+    width: 90px;
+    margin-right: 15px;
+}
+.technology-item {
+    display: flex;
+    border: 1px solid #ddd;
+    margin-bottom: 25px;
+    border-radius: 5px;
+    padding: 25px;
+}
+
+/************** Footer Section ************/
+.footer-area {
+    display: flex;
+    justify-content: space-between;
+}
+.footer-section {
+    background: #efefef;
+    padding: 20px 0;
+}
+.social-icons {
+    display: flex;
+    list-style: none;
+}
+.social-icons li {
+    margin-left: 15px;
 }
