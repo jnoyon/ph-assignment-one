@@ -10,7 +10,7 @@ body{
     font-family: "Azeret Mono", monospace;
 }
 
-.container{
+.container {
     width: 80%;
     margin: 0 auto;
     max-width: 980px;
@@ -24,6 +24,16 @@ body{
     margin-bottom: 30px;
     padding: 60px 0;
 }
+.header-section img {
+    margin-bottom: 20px;
+}
+.header-section h1 {
+    text-shadow: 1px 2px #606060;
+    font-weight: 900;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
 .contact-button {
     background: #0D1321;
     padding: 20px 30px;
@@ -49,6 +59,7 @@ body{
     text-align: center;
     margin-bottom: 20px;
     line-height: 28px;
+    color: #6d6d6d;
 }
 
 /*************** Choose Section **********/
@@ -150,35 +161,49 @@ body{
 /************** Suppport Section ***********/
 .support-section {
     margin-bottom: 30px;
+    
 }
 .support-bg {
-    background: url(images/handshake.jpg);
-}
-.support-content{
+    background-image: url(images/handshake.jpg);
+    border-radius: 15px;
+    background-size: cover;
+  }
+.support-content {
     background: rgba(55, 55, 55, 0.3);
     text-align: center;
-    padding: 20px;
+    padding: 110px 0;
+    border-radius: 15px;
 }
 .support-content p, .support-content h1 {
     color: #FFF;
 }
 .support-content input[type="email"] {
     background: #FFF;
-    padding: 10px;
+    padding: 20px;
     border-radius: 7px;
     border: 0;
-    width: 350px;
+    width: 400px;
     font-size: 17px;
     color: #3d3d3d;
 }
 .support-content input[type="submit"] {
     background: #FFF;
     border: 0;
-    padding: 10px;
+    padding: 20px;
     font-weight: bold;
     font-size: 17px;
     border-radius: 5px;
-  }
+    cursor: pointer;
+}
+.support-content h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.support-content p {
+    margin-bottom: 20px;
+    line-height: 28px;
+}
+
 /************** Footer Section ************/
 .footer-area {
     display: flex;
