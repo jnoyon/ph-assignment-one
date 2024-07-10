@@ -102,13 +102,14 @@ body {
 /********** Skill Section ***********/
 .skill-group {
     display: flex;
-    gap: 30px;
+    gap: 20px;
     justify-content: space-between;
 }
 .skill-item {
     background: #E8EFFF;
     padding: 25px;
     border-radius: 5px;
+    width: 30%;
 }
 .skill-item:first-of-type {
     background: #FFF6F4;
