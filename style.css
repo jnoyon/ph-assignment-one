@@ -139,7 +139,14 @@ body{
     border-radius: 5px;
     padding: 25px;
 }
-
+.technology-item h3,
+.technology-item p {
+    margin-bottom: 15px;
+}
+.technology-item p {
+    color: #535353;
+    line-height: 28px;
+}
 /************** Suppport Section ***********/
 .support-section {
     margin-bottom: 30px;
