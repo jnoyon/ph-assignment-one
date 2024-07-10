@@ -97,10 +97,22 @@ body{
     justify-content: space-between;
 }
 .skill-item {
-    background: #FFF6F4;
+    background: #E8EFFF;
     padding: 25px;
+    border-radius: 5px;
 }
-
+.skill-item:first-of-type {
+    background: #FFF6F4;
+}
+.skill-item:last-of-type {
+    background: #FFFBDE;;
+}
+.skill-item img {
+    margin-bottom: 20px;
+}
+.skill-item h3, .skill-item p {
+    margin-bottom: 20px;
+}
 /*********** Inspiration Area ***********/
 .inspiration-area {
     margin-bottom: 40px;
